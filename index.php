@@ -33,9 +33,7 @@
                         <input type="submit" name="submit-rre" id="submit-tna-form" value="Enter payment details">
                         <h3>Terms and conditions of our paid search service</h3>
                         <p>We will search records we believe are likely to contain the information you have asked for, but we cannot guarantee that our search will be successful. If we are searching in closed records, we cannot guarantee that the information will be made available to you. We do not give refunds.</p>
-                        <br>
                         <p>We will report to you on the outcome of our search. We may include copies of documents where small quantities are involved. Large volume or complex copying will involve a further fee. Access to records in our reading rooms will remain free.</p>
-                        <br>
                         <p>If the total fee amount includes VAT at the standard rate, this will be shown above. If you are not eligible for VAT, because you live outside the European Union, or you are a VAT registered trader in the EU, please email us at <a href="mailto:foifees@nationalarchives.gov.uk">foifees@nationalarchives.gov.uk</a>. Please quote your VAT registration number if this is applicable.</p>
                     </form>
             </article>
