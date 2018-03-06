@@ -64,13 +64,11 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
-    <script>
-        'use strict';
-        // Send transaction data with a pageview if available when the page loads.
-        // Otherwise, use an event when the transaction data becomes available.
+<script>
 
-        window.datalayer = window.dataLayer|| [];
-        window.dataLayer.push({
+        // Send transactionSend transaction data with a pageview if available when the page loads.
+        // Otherwise, use an event when the transaction data becomes available.
+        dataLayer = [{
 
             'event': 'Purchases',
             'dim5': 'TNA-REFERENCE-NUMBER',        // This should be TNA reference number
@@ -101,8 +99,8 @@
                         }]
                 }
             }
-        });
-    </script>
+        }];
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
