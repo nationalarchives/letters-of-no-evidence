@@ -8,12 +8,12 @@
                 <main id="main" class="col-xs-12 col-sm-8 col-md-8" role="main">
                     <article>
                         <div class="entry-header">
-                            <h1>Paid search service</h1>
+                            <h1>Paying for a search</h1>
                         </div>
                         <div class="entry-content clearfix">
                             <div class="arrow-steps clearfix">
                                 <ul>
-                                    <li><span>1</span> Fee request details</li>
+                                    <li><span>1</span> Order details</li>
                                     <li><span>2</span> Payment details</li>
                                     <li class="current"><span>3</span> Payment confirmation</li>
                                 </ul>
