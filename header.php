@@ -64,6 +64,45 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <script>
+        'use strict';
+        // Send transaction data with a pageview if available when the page loads.
+        // Otherwise, use an event when the transaction data becomes available.
+
+        window.datalayer = window.dataLayer|| [];
+        window.dataLayer.push({
+
+            'event': 'Purchases',
+            'dim5': 'TNA-REFERENCE-NUMBER',        // This should be TNA reference number
+            'ecommerce': {
+                'purchase': {
+                    'actionField': {
+                        'id': 'TransactionID',         // Transaction ID. Required for purchases and refunds.
+                        'affiliation': 'InfoService payments',
+                        'revenue': '35.43',            // Total transaction value (incl. tax and shipping)
+                        'tax':'4.90',            // Likely to be zero value
+                        'shipping': '5.99',        // Likely to be zero value
+
+                    },
+                    'products': [{                // List of productFieldObjects.
+                        'name': 'Letter of No Evidence',  // Type of payment. Letter of no evidence, Paid search, etc.
+                        'price': '15.25',
+                        'brand': 'TNA',
+                        'category': 'Search service',
+                        'quantity': 1,
+
+                    },
+                        {
+                            'name': 'Paid search',
+                            'price': '33.75',
+                            'brand': 'TNA',
+                            'category': 'Search service',
+                            'quantity': 1
+                        }]
+                }
+            }
+        });
+    </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
