@@ -2,5 +2,5 @@
 
 * this 
 
-[ ] checklist
-[ ] checklist 2
+* [ ] checklist
+* [ ] checklist 2
